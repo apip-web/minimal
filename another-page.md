@@ -8,7 +8,7 @@ _yay_
 
 [back](./)
 
-## Contoh Button
+### Contoh Button
 
 Klik tombol ini:
 
@@ -30,10 +30,6 @@ document.getElementById("btn").addEventListener("click", () => {
 
 5. Item pertama
 6. Item kedua
-
----
-layout: default
----
 
 ### Tes CSS di Markdown
 
