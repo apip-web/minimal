@@ -7,3 +7,15 @@ layout: default
 _yay_
 
 [back](./)
+
+## Contoh Button
+
+Klik tombol ini:
+
+<button id="btn">Klik saya</button>
+
+<script>
+document.getElementById("btn").addEventListener("click", () => {
+  alert("Halo dari JS!");
+});
+</script>
