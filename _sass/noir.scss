@@ -74,6 +74,26 @@ pre {
   overflow-x: auto;
 }
 
+/* ===== Blockquote ===== */
+blockquote {
+  color:#777;
+  font-style:italic;
+  margin: 2em 0;
+  padding:12px 0 0 44px;
+  position:relative;
+}
+
+blockquote:before {
+  color:#e6e6e6;
+  content:"\201C";
+  font-family:Georgia, serif;
+  font-size:84px;
+  left:-5px;
+  line-height:1;
+  position:absolute;
+  top:-5px;
+}
+
 /* ===== Tables ===== */
 .table_component {
   overflow: auto;
@@ -1971,6 +1991,7 @@ footer {
 	}
 
 }
+
 
 
 
