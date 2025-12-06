@@ -218,3 +218,10 @@
 .highlight {
   background-color: #282a36;
 }
+
+/* Default foreground for unstyled tokens */
+.highlight .n,
+.highlight .nx,
+.highlight .p {
+  color: #f8f8f2; /* Dracula foreground */
+}
