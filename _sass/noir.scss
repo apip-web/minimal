@@ -44,6 +44,18 @@ body {
 	overflow-x: hidden;
 }
 
+a {
+	color: var(--accent);
+	text-decoration: none;
+	transition: all 0.3s ease;
+	font-weight: 600;
+}
+
+a:hover {
+	color: var(--accent-hover);
+	text-decoration: underline;
+}
+
 /* Navigation */
 nav {
 	position: fixed;
@@ -1869,5 +1881,6 @@ footer {
 	}
 
 }
+
 
 
