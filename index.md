@@ -33,3 +33,13 @@ layout: default
     </li>
   {% endfor %}
 </ul>
+
+2.
+
+<ul>
+  {% for p in site.collections.pages.docs %}
+    <li>
+      <a href="{{ p.url | relative_url }}">{{ p.data.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
