@@ -9,7 +9,7 @@ layout: default
   <h3>Tentang Saya</h3>
   <p>Saya seorang pengembang web yang suka eksperimen dengan Jekyll dan HTML/CSS.</p>
 
-  <h3>Daftar Postingan</h3>
+  <h3>Posts</h3>
   <ul>
     {% for post in site.posts %}
       <li>
@@ -18,14 +18,7 @@ layout: default
     {% endfor %}
   </ul>
 
-  <h3>Pages</h3>
-  <ul>
-    <li><a href="./another-page.html">Link to another page</a></li>
-    <li><a href="./about-minimal-theme-jekyll.html">Link to About Minimal Jekyll Theme</a></li>
-  </ul>
-</div>
-
-<h3>Pages otoma</h3>
+<h3>Pages</h3>
 <ul>
   {% for p in site.page %}
     <li>
@@ -33,13 +26,4 @@ layout: default
     </li>
   {% endfor %}
 </ul>
-
-2.
-
-<ul>
-  {% for p in site.collections.page.docs %}
-    <li>
-      <a href="{{ p.url | relative_url }}">{{ p.data.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+</div>
