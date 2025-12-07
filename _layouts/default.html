@@ -61,6 +61,13 @@
 
       </section>
       <footer>
+<ul>
+  {% for p in site.page %}
+    <li>
+      <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 <div class="footer-bottom">
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
