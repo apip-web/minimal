@@ -62,14 +62,6 @@
   color: #ff5555;
 }
 
-.highlight .kc {
-  color: #ff79c6;
-  font-weight: bold;
-}
-.highlight .kd {
-  color: #ff79c6;
-  font-weight: bold;
-}
 .highlight .kn {
   color: #ff79c6;
   font-weight: bold;
@@ -86,8 +78,8 @@
   color: #bd93f9;
   font-weight: bold;
 }
-.highlight .k, .highlight .kv {
-  color: #ff79c6;
+.highlight .k, .highlight .kv, .highlight .kc, .highlight .kd, .highlight .o, .highlight .ow {
+  color: #ff3366;
   font-weight: bold;
 }
 
@@ -200,15 +192,6 @@
 }
 .highlight .nv {
   color: #8be9fd;
-}
-
-.highlight .ow {
-  color: #ff79c6;
-  font-weight: bold;
-}
-.highlight .o {
-  color: #ff79c6;
-  font-weight: bold;
 }
 
 .highlight .w {
