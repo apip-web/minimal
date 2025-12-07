@@ -6,11 +6,13 @@ google_analytics:
 theme: jekyll-theme-minimal
 
 collections:
-  page:
+  pages:
     output: true
     permalink: /page/:name/
-    defaults:
-      - scope:
-          type: page
-        values:
-          layout: default
+
+defaults:
+  - scope:
+      path: "page"
+      type: pages
+    values:
+      layout: default
