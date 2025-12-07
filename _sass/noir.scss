@@ -35,16 +35,16 @@ section {
 	scroll-margin-top: 70px;
 }
 
-section>ul>li {
-	background: none;
-}
-
 .wrapper>section {
 	padding: 120px 20px 20px 20px;
 }
 
 .wrapper>section>ul {
 	margin-left: 0;
+}
+
+.wrapper>section>ul>li {
+	background: none;
 }
 
 body {
@@ -2114,6 +2114,7 @@ footer {
 	}
 
 }
+
 
 
 
