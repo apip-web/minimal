@@ -24,3 +24,10 @@ layout: default
     <li><a href="./about-minimal-theme-jekyll.html">Link to About Minimal Jekyll Theme</a></li>
   </ul>
 </div>
+
+<h3>Pages otoma</h3>
+<ul>
+  {% for p in site.page %}
+    <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+  {% endfor %}
+</ul>
