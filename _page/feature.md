@@ -79,7 +79,13 @@ end
 
 ### A button
 
-<button>button</button>
+<button id="btn">Klik saya</button>
+
+<script>
+document.getElementById("btn").addEventListener("click", () => {
+  alert("Halo dari JS!");
+});
+</script>
 
 ### Small image
 
