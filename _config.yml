@@ -6,6 +6,6 @@ google_analytics:
 theme: jekyll-theme-minimal
 
 collections:
-  pages:
+  page:
     output: true
     permalink: /page/:name/
