@@ -111,62 +111,77 @@ h6 {
 }
 
 /* ===== Modern Lists (Pitch Black Theme) ===== */
+/* ===== Pitch Black OL ===== */
 ol {
-  list-style: none;
-  margin: 0 0 0 40px;
+  margin: 0 0 1.25rem 40px;
   padding: 0;
+  color: #e6e6e6;
+  font-size: 16px;
+  list-style: none; /* hilangkan default number */
 }
 
-ol li {
-  font-size: 13px;
-  margin-bottom: 0.8em;
-  background: #0d0d0d; /* kotak item */
-  padding: 5px 10px;
-  border-radius: 9px;
-  color: #e8e8e8; /* teks */
+ol > li {
+  position: relative;
+  margin-bottom: 12px;
+  background: #0d0d0d;
+  padding: 10px 14px 10px 14px;
+  border-radius: 8px;
+  line-height: 1.5;
+  border: 1px solid rgba(255,255,255,0.05);
 }
 
-ol li::before {
-  color: #ffffff;
-  background: #222; /* bulatan angka */
+/* hide default marker */
+ol > li::marker {
+  color: transparent;
+}
+
+/* badge nomor (JS yang mengatur posisi) */
+.noir-badge {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background: #222;
+  color: white;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  display: inline-flex;
+  font-size: 12px;
+  font-weight: 700;
+margin-left: -20px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 12px;
-  font-weight: bold;
-  margin: 0 26px 0 -50px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  pointer-events: none;
 }
 
+/* ===== Pitch Black UL ===== */
 ul {
-  list-style: none;
-  margin: 0 0 0 40px;
+  margin: 0 0 1.25rem 40px;
   padding: 0;
+  color: #e6e6e6;
+  font-size: 16px;
+  list-style: none; /* hilangkan default bullet */
 }
 
-ul li {
-  font-size: 13px;
-  margin-bottom: 0.8em;
-  background: #0d0d0d; /* kotak item */
-  padding: 5px 10px;
-  border-radius: 9px;
-  color: #e8e8e8; /* teks */
+ul > li {
+  position: relative;
+  margin-bottom: 12px;
+  background: #0d0d0d;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.05);
+  line-height: 1.5;
 }
 
-ul li::before {
-  content: "\279C";
-  color: #ffffff; /* warna arrow */
+/* bullet custom — JS akan menambahkan posisi */
+.noir-bullet {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+margin-left: -20px;
+  background: #fff;
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 12px;
-  font-weight: bold;
-  margin: 0 26px 0 -50px;
+  box-shadow: 0 0 6px rgba(255,255,255,0.4);
+  pointer-events: none;
 }
 
 /* ===== Unordered List Level 2 ===== */
@@ -2091,6 +2106,7 @@ footer {
 	}
 
 }
+
 
 
 
