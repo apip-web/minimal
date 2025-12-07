@@ -100,7 +100,10 @@ h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], section[id] {
   color: #ff3366;
   text-decoration: none;
   margin-left: 8px;
-  opacity: 1;
+  position: static !important;   /* BUKAN absolute */
+  margin-right: 8px !important;  /* jarak antara icon dan teks */
+  margin-left: 0 !important;
+  display: inline-block;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -2070,6 +2073,7 @@ footer {
 	}
 
 }
+
 
 
 
