@@ -216,7 +216,7 @@ table {
   border-collapse: separate;
   border-spacing: 0px;
   text-align: left;
-  background: #0d0d0d; /* pitch black */
+  background: #000; /* pitch black */
   overflow-x: auto;
   display: block;
 }
@@ -230,14 +230,14 @@ th {
 }
 
 td {
-  border: 1px solid #333;
+  border: none;
   padding: 5px 10px;
   white-space: nowrap;
   color: #dddddd;
 }
 
 tr {
-  background-color: #0d0d0d; /* base black */
+  background-color: #000; /* base black */
 }
 
 tr:nth-child(even) {
@@ -2116,6 +2116,7 @@ footer {
 	}
 
 }
+
 
 
 
