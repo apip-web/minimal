@@ -39,47 +39,80 @@ end
 ```
 
 <style>
-/* Line number container */
-pre {
-  position: relative;
-  padding: 20px !important;
-  background: #0a0a0a;
-  color: #eee;
-  border-radius: 6px;
-  border: 1px solid #222;
-  line-height: 1.45;
-  overflow-x: auto;
+/* === WRAPPER OTOMATIS === */
+.pre-wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background: #1e1e1e;
+  border: 1px solid #444;
+  border-radius: 8px;
+  overflow: auto;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 20px 0;
 }
 
-/* setiap baris */
-pre code .line {
-  display: block;
-  position: relative;
-  padding-left: 8px;
-  counter-increment: line;
-}
-
-/* nomor baris */
-pre code .line::before {
-  content: counter(line);
-  position: absolute;
-  left: -40px;
-  top: 0;
-  width: 32px;
+/* === LINE NUMBERS === */
+.pre-wrapper .line-numbers {
+  background: #252526;
+  color: #858585;
   text-align: right;
-  color: #ff3366;
-  opacity: 0.7;
-  font-size: 0.85em;
+  padding: 12px 10px 12px 12px;
+  user-select: none;
+  border-right: 1px solid #444;
+  position: sticky;
+  left: 0;
+  z-index: 10;
+}
+
+.pre-wrapper .line-numbers span {
+  display: block;
+  line-height: 1.5;
+  font-family: Consolas, monospace;
+}
+
+/* === KODE === */
+.pre-wrapper pre {
+  margin: 0;
+  padding: 12px;
+  overflow: visible;
+}
+
+.pre-wrapper pre code span {
+  display: block;
+  white-space: pre;
+  line-height: 1.5;
+}
+
+/* highlight baris saat hover */
+.pre-wrapper pre code span:hover {
+  background: #2a2a2a;
 }
 </style>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("pre > code").forEach(code => {
-    const lines = code.innerHTML.split(/\n/);
-    code.innerHTML = lines.map(line =>
-      `<span class="line">${line || " "}</span>`
-    ).join("");
+    const pre = code.parentElement;
+    const lines = code.textContent.replace(/\n$/, "").split("\n");
+
+    // Bungkus PRE dalam .pre-wrapper
+    const wrapper = document.createElement("div");
+    wrapper.className = "pre-wrapper";
+
+    // Buat kolom kiri (nomor baris)
+    const nums = document.createElement("div");
+    nums.className = "line-numbers";
+
+    nums.innerHTML = lines.map((_, i) => `<span>${i + 1}</span>`).join("");
+
+    // Ganti setiap baris kode menjadi span
+    code.innerHTML = lines.map(line => `<span>${line || " "}</span>`).join("\n");
+
+    // Masukkan DOM baru
+    pre.replaceWith(wrapper);
+    wrapper.appendChild(nums);
+    wrapper.appendChild(pre);
   });
 });
 </script>
