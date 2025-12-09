@@ -10,6 +10,10 @@ body {
   color: #e8e8e8;
 }
 
+.anchorjs-link {
+  display: none;
+}
+  
 .container {
   max-width: 850px;
   margin: 40px auto;
