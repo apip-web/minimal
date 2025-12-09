@@ -1,3 +1,7 @@
+---
+layout: default
+title: HTML ESCAPER — NOIR
+---
 <style>
 body {
   background: #0f0f0f;
