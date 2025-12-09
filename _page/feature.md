@@ -98,7 +98,7 @@ document.getElementById("btn").addEventListener("click", () => {
 ### Tag code
 
 <code>&lt;!DOCTYPE html&gt;</code>
-&lt;html lang=&quot;id&quot;&gt;
+<code>&lt;html lang=&quot;id&quot;&gt;</code>
 
 <code>&lt;head&gt;</code>...<code>&lt;/head&gt;</code>
 
