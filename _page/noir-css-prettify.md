@@ -1,3 +1,7 @@
+---
+layout: default
+title: CSS PRETTIFY — NOIR
+---
 
 <title>CSS Prettify Noir</title>
 <style>
@@ -18,7 +22,7 @@ h1 {
   letter-spacing: 2px;
   color: #ff3366;
   text-shadow: 0 0 12px #ff3366;
-  margin-bottom: 25px;
+  margin: 25px auto;
 }
 
 textarea {
@@ -86,7 +90,7 @@ button:hover {
 </style>
 
 <div class="container">
-  <h1>CSS PRETTIFY — NOIR</h1>
+  <h1>CSS PRETTIFY</h1>
 
   <textarea id="input" placeholder="Paste CSS here..."></textarea>
 
