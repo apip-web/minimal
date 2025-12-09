@@ -21,7 +21,6 @@
 /* Outer container (wraps header + inner grid) */
 .code-box {
   background: var(--code-bg);
-  border: 1px solid var(--code-border);
   border-radius: var(--radius);
   overflow: hidden;
   margin: 24px 0;
@@ -38,7 +37,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--header-border);
   z-index: 5;
   gap: var(--gap);
 }
@@ -90,7 +88,6 @@
   text-align: right;
   padding: var(--code-padding) 10px var(--code-padding) 12px;
   user-select: none;
-  border-right: 1px solid var(--code-border);
 
   /* sticky so it stays visible during horizontal scroll of code */
   position: sticky;
