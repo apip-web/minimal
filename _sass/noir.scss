@@ -32,19 +32,29 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	font-family: 'Arial', sans-serif;
+	background: var(--bg-dark);
+	color: var(--text-light);
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper {
+  flex: 1; /* Dorong footer ke bawah */
+}
+
+footer {
+  margin-top: auto; 
+}
+
 .wrapper>section {
 	padding: 80px 20px 20px 20px;
 }
 
 .homepage>ul, footer>ul {
 	margin-left: 0;
-}
-
-body {
-	font-family: 'Arial', sans-serif;
-	background: var(--bg-dark);
-	color: var(--text-light);
-	overflow-x: hidden;
 }
 
 a {
@@ -1489,6 +1499,7 @@ footer {
 	}
 
 }
+
 
 
 
