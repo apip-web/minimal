@@ -26,7 +26,7 @@ tags: tutorial
 ## Perbedaan
 
   <div class="font-primary">
-    <h3>Font Arial</h3>
+    <h3>Font Arial 15px</h3>
     <p>
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
       accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
@@ -38,7 +38,7 @@ tags: tutorial
   </div>
 
   <div class="font-secondary">
-    <h3>Font Roboto Flex</h3>
+    <h3>Font Roboto Flex 16px</h3>
     <p>
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
       accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
@@ -50,7 +50,7 @@ tags: tutorial
   </div>
 
   <div class="font-third">
-    <h3>Font Google Sans Code</h3>
+    <h3>Font Google Sans Code 14px</h3>
     <p>
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
       accusantium doloremque laudantium, totam rem aperiam, eaque ipsa 
@@ -62,14 +62,14 @@ tags: tutorial
   </div>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex');
 
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code');
 
 .font-primary {
   font-family: Arial, Courier;
   color: #888;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .font-secondary {
