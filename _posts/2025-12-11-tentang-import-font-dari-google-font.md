@@ -69,17 +69,18 @@ tags: tutorial
 .font-primary {
   font-family: Arial, Courier;
   color: #888;
+  font-size: 14px;
 }
 
 .font-secondary {
   font-family: Roboto Flex, Courier;
   color: #888;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .font-third {
   font-family: Google Sans Code, Courier;
   color: #888;
-  font-size: 16px;
+  font-size: 14px;
 }
 </style>
