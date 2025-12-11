@@ -210,7 +210,6 @@ table {
   border-collapse: separate;
   border-spacing: 0px;
   text-align: left;
-  font-size: var(--font-size);
   background: #000;
   overflow-x: auto;
   display: block;
@@ -222,6 +221,7 @@ th {
   border: none;
   padding: 10px 20px;
   white-space: nowrap;
+  font-size: var(--font-size);
 }
 
 td {
@@ -229,6 +229,7 @@ td {
   padding: 10px 20px;
   white-space: nowrap;
   color: #dddddd;
+  font-size: var(--font-size);
 }
 
 tr {
@@ -425,6 +426,7 @@ footer {
 	color: var(--text-muted);
 	font-size: 14px;
 }
+
 
 
 
