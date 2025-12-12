@@ -315,7 +315,7 @@ nav.scrolled {
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 900;
     font-size: 28px;
-    letter-spacing: -2px;
+    letter-spacing: 0px;
     background: linear-gradient(135deg, #000, #ff3366);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -425,6 +425,7 @@ footer {
 	color: var(--text-muted);
 	font-size: 14px;
 }
+
 
 
 
