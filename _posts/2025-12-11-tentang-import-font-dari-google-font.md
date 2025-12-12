@@ -21,6 +21,8 @@ tags: tutorial
 | Sumbu lain | XOPQ, XTRA, dst = pengaturan bentuk huruf tingkat lanjut |
 | `display=swap` | Font langsung pakai fallback dulu, <br> lalu ganti ke Roboto Flex setelah download |
 
+## Axis Variable
+
 | Axis | Nilai     | Arti                                 |
 |------|-----------|--------------------------------------|
 | opsz | 8..144    | Bisa berubah dari ukuran optik 8–144 |
