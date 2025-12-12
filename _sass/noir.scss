@@ -311,13 +311,14 @@ nav.scrolled {
 	margin-right: 10px;
 }
 
-.logo-text {
+nav .logo-text {
     font-size: 28px;
-    font-weight: 900 !important;
-    letter-spacing: -2px !important;
-    background: linear-gradient(135deg, #000, #ff3366) !important;
-    -webkit-background-clip: text !important;
-    -webkit-text-fill-color: transparent !important;
+    font-weight: 900;
+    letter-spacing: -2px;
+    line-height: 1;
+    background: linear-gradient(135deg, #000, #ff3366);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .menu-toggle {
@@ -424,6 +425,7 @@ footer {
 	color: var(--text-muted);
 	font-size: 14px;
 }
+
 
 
 
