@@ -86,6 +86,6 @@ tags: tutorial
 }
 
 .code-box pre code {
-  white-space: pre-wrap !important;
+  white-space: break-spaces;
 }
 </style>
