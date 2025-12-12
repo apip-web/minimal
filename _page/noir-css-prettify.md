@@ -17,10 +17,6 @@ body {
   text-align: center;
 }
 
-.anchorjs-link {
-  display: none;
-}
-
 h1 {
   font-size: 28px;
   letter-spacing: 2px;
