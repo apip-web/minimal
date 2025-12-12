@@ -1,5 +1,6 @@
 @import "rouge-github";
 @import "noir-pre";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap');
 
 /*
 
@@ -24,9 +25,9 @@ https://templatemo.com/tm-599-noir-fashion
 	--accent-hover: #ff1149;
 	--text-light: #fff;
 	--text-muted: #888;
-	--bg-dark: #000;
+	--bg-dark: #0f0f12;
 	--bg-section: #0a0a0a;
-	--font-size: 15px;
+	--font-size: 16px;
 }
 
 html {
@@ -35,13 +36,14 @@ html {
 }
 
 body {
-	font-family: 'Arial', Courier, sans-serif;
+	font-family: "Roboto Flex", Arial, Courier, sans-serif;
 	background: var(--bg-dark);
 	color: var(--text-muted);
 	overflow-x: hidden;
 	height: 100%;
 	line-height: 1.4;
 	font-size: var(--font-size);
+	font-variation-settings: "wght" 450, "opsz" 38;
 }
 
 .wrapper {
@@ -416,6 +418,7 @@ footer {
 	color: var(--text-muted);
 	font-size: 14px;
 }
+
 
 
 
