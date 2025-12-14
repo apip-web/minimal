@@ -132,7 +132,7 @@ p {
 <h2 class="section-title">About Me</h2>
 <p>
   I love experimenting with HTML, CSS, and JavaScript, as well as modifying Android apps directly from my phone.  
-  I also build small systems like tooltips, popups, RSS readers, static blogs on GitHub Pages, and various other UI components.
+  I also build small systems like tooltips, popups, RSS readers, static blogs on GitHub Pages, and various other UI components. Game modding, etc.
 </p>
 
 <h2 class="section-title">Skills</h2>
