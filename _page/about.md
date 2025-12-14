@@ -92,7 +92,9 @@ p {
 <div class="container">
   
   <div class="header">
-    <img src="/assets/img/33422003.webp" alt="Profile Picture" href="/assets/img/33422003.jpg">
+    <a href="/assets/img/33422003.jpg" target="_blank" rel="noopener">
+  <img src="/assets/img/33422003.webp" alt="Profile Picture" loading="lazy">
+</a>
     <div>
       <h1>Orang Utan</h1>
       <ul>
