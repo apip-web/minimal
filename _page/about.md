@@ -92,7 +92,7 @@ p {
 <div class="container">
   
   <div class="header">
-    <img src="/assets/img/Umagic_20241015_133310346.jpg">
+    <img src="/assets/img/33422003.webp" alt="Profile Picture" href="/assets/img/33422003.jpg">
     <div>
       <h1>Orang Utan</h1>
       <ul>
