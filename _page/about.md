@@ -92,7 +92,7 @@ p {
 <div class="container">
   
   <div class="header">
-    <img src="https://i.pravatar.cc/" alt="Profile">
+    <img src="/assets/img/Umagic_20241015_133310346.jpg">
     <div>
       <h1>Orang Utan</h1>
       <ul>
