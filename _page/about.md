@@ -5,15 +5,10 @@ title: About Me
 
 <style>
 body {
-  font-family: sans-serif;
   background: #0d0d0d;
   color: #e8e8e8;
 }
 
-.anchorjs-link {
-  display: none;
-}
-  
 .container {
   max-width: 850px;
   margin: auto;
@@ -69,7 +64,6 @@ body {
 p {
   font-size: 15px;
   color: #d0d0d0;
-  line-height: 1.7;
 }
 
 .badges {
