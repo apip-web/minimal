@@ -29,6 +29,7 @@ body {
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
+  border:3px solid rgba(255,255,255,0.08);
 }
 
 .header h1 {
@@ -51,6 +52,7 @@ body {
   color: #bcbcbc;
   margin-bottom: 5px;
   line-height: 1;
+  padding: 5px 15px;
 }
 
 .noir-bullet {
