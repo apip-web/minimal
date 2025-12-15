@@ -15,10 +15,6 @@ body {
   text-align: center;
 }
 
-.anchorjs-link {
-  display: none;
-}
-
 h1 {
   font-size: 28px;
   font-family: sans serif;
@@ -55,27 +51,6 @@ textarea:focus {
   height: 180px;
   background: #151515;
   border: 1px solid #444;
-}
-
-button {
-  margin-top: 15px;
-  background: #ff3366;
-  border: none;
-  padding: 10px 16px;
-  border-radius: 6px;
-  color: white;
-  font-weight: 600;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  cursor: pointer;
-  display: inline-block;
-  transition: all 0.4s ease;
-}
-
-button:hover {
-  background: #ff4d80;
-  box-shadow: 0 0 20px #ff3366;
 }
 
 .copy-btn, .unescapeHTML-btn {
