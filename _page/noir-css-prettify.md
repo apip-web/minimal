@@ -8,7 +8,7 @@ title: CSS PRETTIFY — NOIR
 body {
   background: #0f0f0f;
   color: #e6e6e6;
-  font-variation-settings: "wght" 750, "opsz" 72;
+  font-family: sans-serif;
 }
 
 .container {
@@ -23,6 +23,7 @@ h1 {
   color: #ff3366;
   text-shadow: 0 0 12px #ff3366;
   margin: 25px auto;
+  font-variation-settings: "wght" 750, "opsz" 72;
 }
 
 textarea {
