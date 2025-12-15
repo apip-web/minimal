@@ -54,28 +54,6 @@ textarea:focus {
   border: 1px solid #444;
 }
 
-/* BUTTONS */
-button {
-  margin-top: 15px;
-  background: #ff3366;
-  border: none;
-  padding: 10px 16px;
-  border-radius: 6px;
-  color: white;
-  font-weight: 600;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  cursor: pointer;
-  display: inline-block;
-  transition: all 0.4s ease;
-}
-
-button:hover {
-  background: #ff4d80;
-  box-shadow: 0 0 20px #ff3366;
-}
-
 .copy-btn, .minify-btn {
   margin-left: 10px;
   background: #222;
