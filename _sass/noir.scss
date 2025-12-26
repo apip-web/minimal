@@ -38,17 +38,33 @@ html {
 
 body {
 	font-family: "Roboto Flex", Courier, Arial, sans-serif;
-	background:
-    radial-gradient(300px 300px at 20% 30%, rgba(255,0,150,.35), transparent 60%),
-    radial-gradient(300px 300px at 80% 20%, rgba(0,200,255,.35), transparent 60%),
-    radial-gradient(300px 300px at 50% 80%, rgba(0,255,150,.35), transparent 60%),
-    #0b0b0b;
+	background: var(--bg-dark);
 	color: var(--text-light);
 	overflow-x: hidden;
 	height: 100%;
 	line-height: 1.4;
 	font-size: var(--font-size);
 	font-variation-settings: "wght" 450, "opsz" 38;
+}
+
+body::before {
+  content: "";
+  position: fixed;  /* Tetap di layar saat scroll */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none; /* Tidak menghalangi interaksi */
+  z-index: -1;         /* Di belakang semua konten */
+  
+  background:
+    radial-gradient(300px 300px at 20% 30%, rgba(255,0,150,.35), transparent 60%),
+    radial-gradient(300px 300px at 80% 20%, rgba(0,200,255,.35), transparent 60%),
+    radial-gradient(300px 300px at 50% 80%, rgba(0,255,150,.35), transparent 60%),
+    #0b0b0b;
+    
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .wrapper {
@@ -484,4 +500,5 @@ footer {
   color:#0f0;
   margin-top:5px;
 }
+
 
