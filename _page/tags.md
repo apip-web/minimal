@@ -23,24 +23,35 @@ permalink: /tags/
 </div>
 
 <script>
+function filterByTag(tag) {
+  document.querySelectorAll('.post').forEach(post => {
+    const tags = post.dataset.tags.split(',');
+    post.style.display = tags.includes(tag) ? '' : 'none';
+  });
+}
+
 document.addEventListener('click', function (e) {
   const btn = e.target.closest('.tag');
   if (!btn) return;
 
   const tag = btn.dataset.tag;
-  const posts = document.querySelectorAll('.post');
+  location.hash = tag;
+  filterByTag(tag);
+});
 
-  posts.forEach(post => {
-    const tags = post.dataset.tags.split(',');
-    post.style.display = tags.includes(tag) ? '' : 'none';
-  });
+window.addEventListener('DOMContentLoaded', () => {
+  const hash = location.hash.replace('#', '');
+  if (hash) {
+    filterByTag(hash);
+  }
 });
 </script>
 
 <button id="show-all">All</button>
 
 <script>
-document.getElementById('show-all')?.addEventListener('click', () => {
+document.getElementById('show-all').addEventListener('click', () => {
+  location.hash = '';
   document.querySelectorAll('.post').forEach(p => {
     p.style.display = '';
   });
