@@ -442,7 +442,7 @@ nav.scrolled {
 
 /* Footer */
 footer {
-	background: #000;
+	background: transparent; /* #000; */
 	padding: 0 20px 20px;
 	border-top: 1px solid #222;
 	margin-top: auto;
@@ -452,7 +452,7 @@ footer {
 	max-width: 1400px;
 	margin: 0 auto;
 	padding-top: 30px;
-	/*border-top: 1px solid #222;*/
+	/* border-top: 1px solid #222; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -500,5 +500,6 @@ footer {
   color:#0f0;
   margin-top:5px;
 }
+
 
 
