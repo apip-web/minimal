@@ -8,3 +8,6 @@ collections:
   page:
     output: true
     permalink: /page/:name/
+
+plugins:
+  - jekyll-seo-tag
