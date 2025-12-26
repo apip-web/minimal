@@ -15,11 +15,9 @@ layout: default
   <!-- Tags -->
   {% if page.tags %}
   <div class="post-tags">
-    {% for tag in page.tags %}
-      <a href="{{ '/tags/#' | append: tag | relative_url }}" class="tag">
-        #{{ tag }}
-      </a>
-    {% endfor %}
+{% for tag in page.tags %}
+  <a class="tag" href="/tags/#{{ tag }}">#{{ tag }}</a>
+{% endfor %}
   </div>
   {% endif %}
 
